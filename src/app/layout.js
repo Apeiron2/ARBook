@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         />
       </head>
-      <body className={`roboto-regular antialiased`}>{children}</body>
+      <body className={`roboto-regular antialiased h-screen`}>{children}</body>
     </html>
   );
 }

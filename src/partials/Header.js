@@ -3,7 +3,7 @@ import HustLogo from "../assets/hust-logo.png";
 import HeaderIcon from "../assets/image.png";
 const Header = () => {
   return (
-    <header className="bg-red-600 flex justify-between items-center shadow-md">
+    <header className="bg-red-600 flex justify-between items-center shadow-md px-3">
       <div className="flex items-center p-3">
         <Image src={HustLogo} height={45} alt="Hust Logo" />
       </div>
