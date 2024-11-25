@@ -1,6 +1,7 @@
 import Image from "next/image";
-import VerticalMenu from "./components/verticalMenu";
-import Header from "./partials/header";
+import VerticalMenu from "../components/VerticalMenu";
+import Header from "../partials/header";
+import TopicList from "@/components/TopicList";
 
 export default function Home() {
   return (
