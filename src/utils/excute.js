@@ -1,7 +1,8 @@
+import { config } from "dotenv";
 import { promises as fs } from "fs";
-
+config();
 export class LessonManager {
-  constructor(filePath = "./public/data.json") {
+  constructor(filePath = `${process.env.HOST}/data.json`) {
     this.filePath = filePath;
     this.data = null; // Lưu trữ dữ liệu JSON sau khi load
   }
