@@ -1,0 +1,85 @@
+{
+  "topics": [
+    {
+      "no": 10,
+      "no_roman": "X",
+      "title": "Trái đất và bầu trời",
+      "img": "https://apeironsepdhust.io.vn/uploads/planets-solar-system.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu sapien porttitor, blandit velit ac, vehicula elit. Nunc et ex at turpis rutrum viverra.",
+      "lessons": [
+        {
+          "no": 52,
+          "title": "Chuyển động nhìn thấy của mặt trời. Thiên thể",
+          "backgroundUrl": "https://apeironsepdhust.io.vn/uploads/Artboard%203%201.png",
+          "sketchfabUrl": "https://sketchfab.com/3d-models/solar-system-3d",
+
+          "sections": [
+            {
+              "title": "Chuyển động nhìn thấy của Mặt Trời",
+              "content": "Từ mặt đất, chúng ta quan sát bầu trời và thấy được Mặt Trời mọc ở hướng Đông, sau đó chuyển động ngang qua bầu trời và rồi lặn ở hướng Tây.\nCác nhà thiên văn học cổ đại đã giải thích hiện tượng chuyển động này của Mặt Trời là do Trái Đất đứng yên và là trung tâm của vũ trụ, Mặt Trời và các hành tinh quay quanh Trái Đất./nĐến thế kỉ XVI, Nicolaus Copernicus dùng hiện tượng tự quay của Trái Đất quanh trục của nó để giải thích chuyển động của Mặt Trời trên bầu trời.  ",
+              "img": "https://apeironsepdhust.io.vn/uploads/giua-trua 1.png"
+            },
+            {
+              "title": "Chuyển động tự quay của Trái Đất",
+              "content": "Từ mặt đất, chúng ta quan sát bầu trời và thấy được Mặt Trời mọc ở hướng Đông, sau đó chuyển động ngang qua bầu trời và rồi lặn ở hướng Tây./nCác nhà thiên văn học cổ đại đã giải thích hiện tượng chuyển động này của Mặt Trời là do Trái Đất đứng yên và là trung tâm của vũ trụ, Mặt Trời và các hành tinh quay quanh Trái Đất.\nĐến thế kỉ XVI, Nicolaus Copernicus dùng hiện tượng tự quay của Trái Đất quanh trục của nó để giải thích chuyển động của Mặt Trời trên bầu trời.  ",
+              "img": "https://apeironsepdhust.io.vn/uploads/giua-trua 1.png"
+            },
+            {
+              "title": "Phân biệt các thiên thể",
+              "content": "Từ mặt đất, chúng ta quan sát bầu trời và thấy được Mặt Trời mọc ở hướng Đông, sau đó chuyển động ngang qua bầu trời và rồi lặn ở hướng Tây./nCác nhà thiên văn học cổ đại đã giải thích hiện tượng chuyển động này của Mặt Trời là do Trái Đất đứng yên và là trung tâm của vũ trụ, Mặt Trời và các hành tinh quay quanh Trái Đất./nĐến thế kỉ XVI, Nicolaus Copernicus dùng hiện tượng tự quay của Trái Đất quanh trục của nó để giải thích chuyển động của Mặt Trời trên bầu trời.  ",
+              "img": "https://apeironsepdhust.io.vn/uploads/giua-trua 1.png"
+            }
+          ]
+        },
+        {
+          "no": 53,
+          "title": "Mặt trăng",
+          "sections": []
+        },
+        {
+          "no": 54,
+          "title": "Hệ mặt trời",
+          "sections": []
+        },
+        {
+          "no": 55,
+          "title": "Ngân hà",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "no_roman": "VIII",
+      "title": "Cơ thể người",
+      "img": "https://apeironsepdhust.io.vn/uploads/optician-oculist-woman-tells-about-structure-eye.png",
+      "description": "",
+      "lessons": [
+        {
+          "no": 31,
+          "title": "Hệ vận dộng ở người",
+          "sections": [
+            {
+              "title": "Chuyển động nhìn thấy của mặt trời"
+            }
+          ]
+        },
+        {
+          "no": 32,
+          "title": "Dinh dưỡng và tiêu hóa ở người",
+          "sections": []
+        },
+        {
+          "no": 34,
+          "title": "Hệ hô hấp ở người",
+          "sections": []
+        },
+        {
+          "no": 37,
+          "title": "Hệ thần kinh và các giác quan ở người",
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

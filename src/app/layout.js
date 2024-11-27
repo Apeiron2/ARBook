@@ -1,11 +1,5 @@
-import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = localFont({
-  src: "../fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+import Header from "@/partials/Header";
 
 export const metadata = {
   title: "ARBook",
@@ -21,7 +15,10 @@ export default function RootLayout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         />
       </head>
-      <body className={`roboto-regular antialiased h-screen`}>{children}</body>
+      <body className={`roboto-regular antialiased min-h-screen flex flex-col`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

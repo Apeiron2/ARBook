@@ -1,18 +1,14 @@
-const Card = () => {
+const Card = ({ topic }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full mt-10">
       <img
-        src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606"
+        src={topic.img}
         alt="Mountain"
         className="w-full h-32 object-cover"
       />
       <div className="p-6">
-        <h2 className="text-xl roboto-bold mb-2">Beautiful Mountain View</h2>
-        <p className="roboto-regular leading-tight mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu
-          sapien porttitor, blandit velit ac, vehicula elit. Nunc et ex at
-          turpis rutrum viverra.
-        </p>
+        <h2 className="text-xl roboto-bold mb-2">{topic.title}</h2>
+        <p className="roboto-regular leading-tight mb-4">{topic.description}</p>
       </div>
     </div>
   );

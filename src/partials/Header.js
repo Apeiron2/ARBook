@@ -9,7 +9,9 @@ const Header = () => {
       </div>
 
       <div className="flex items-center gap-2">
-        <span className="text-white roboto-bold text-lg">TÀI LIỆU HỌC AR</span>
+        <span className="text-white roboto-bold text-lg  hidden md:block">
+          TÀI LIỆU HỌC AR
+        </span>
         <Image src={HeaderIcon} height={32} alt="Tài liệu học AR" />
       </div>
     </header>
