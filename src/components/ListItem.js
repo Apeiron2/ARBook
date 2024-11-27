@@ -20,8 +20,8 @@ const Item = async ({ Item }) => {
 const ListItem = ({ lessons }) => {
   return (
     <div>
-      {lessons.map((lesson) => (
-        <Item Item={lesson} />
+      {lessons.map((lesson, index) => (
+        <Item key={index} Item={lesson} />
       ))}
     </div>
   );
